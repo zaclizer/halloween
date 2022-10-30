@@ -13,11 +13,11 @@ if __name__=="__main__":
 
     #Load BG sound
     pygame.mixer.init()
-    pygame.mixer.music.load("~/Downloads/rain_sound.mp3")
+    pygame.mixer.music.load("haunted_pirate_ship_1_1.mp3")
     pygame.mixer.music.play(loops=-1)
 
     #Load clap sound
-    clap = pygame.mixer.Sound("~/Downloads/clap.wav")
+    clap = pygame.mixer.Sound("clap.wav")
 
     #mot_sen.when_motion = led.blink(on_time=0.4, off_time=0.4, n=4)
     #mot_sen.when_motion = print("Moving!")
